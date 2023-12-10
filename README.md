@@ -8,7 +8,7 @@ Create a simple interactive game as a fun distraction for the visitors to a comp
 
 <br>
 <br>
-### Areas to cover
+### Areas to cover  
 
 - Create the HTML, CSS structure and layout
 - Positioning elements on the page
