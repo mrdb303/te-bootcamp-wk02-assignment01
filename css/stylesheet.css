@@ -3,22 +3,18 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  
 }
 
 html {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 16px;
   background-color: #F8DFC8;
-  /* height: 100%; */
 }
 
 
 img {
   height: 100%;
-  /* width: 100%; */
 }
-
 
 
 h1 {
@@ -168,9 +164,7 @@ article {
 
 .bolder { font-weight: bold;}
 
-.clear{
-  clear: both;
-}
+.clear{ clear: both;}
 
 button {
   background-color: #a65f37;

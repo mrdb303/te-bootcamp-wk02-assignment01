@@ -79,7 +79,10 @@ The following stretch goals were implemented
 ### Issues
 
 Time constraints.
+
 I wanted to add some extra artwork to display images of bonus items. The items were scanned from drawings and cleaned up, but didn't have time to colour them
-and add them.
+and add them. The images are still in the images folder. The plan was to include them to animate them when an extra item is purchased.
 
 Scanner died before I could scan the wireframe plan. So had to take a (bad) photo and use that instead.
+
+I would have preferred adding more HTML elements via the DOM rather than hard-coding as HTML, but I ran out of time.

@@ -48,18 +48,11 @@ export default class OutToDom {
     return numberFormatter.format(value);
   }
 
-  formatElementIdCommas(number, element){
-  //let htmlText = this.formatWithCommas(this.inv.getCookies());
-  //document.getElementById("num-cookies").innerText = htmlText;
 
+  formatElementIdCommas(number, element){
   number = this.formatWithCommas(number);
   document.getElementById(element).innerText = number;
   }
-
-
-
-
-
 
   outputClickedCookie(name, imageNameCurrent, imageNameClk){
     const delayTime = 10;
