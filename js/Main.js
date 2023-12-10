@@ -114,12 +114,8 @@ export default class Main {
 
   processCookieButtonClicked(){
     this.inv.addCookies();
-    let htmlText = this.formatWithCommas(this.inv.getCookies());
-    document.getElementById("num-cookies").innerText = htmlText;
-    
-
-    htmlText = this.formatWithCommas(this.inv.getCPC());
-    document.getElementById("cookies-per-sec").innerText = htmlText;
+    this.out.formatElementIdCommas(this.inv.getCookies(), "num-cookies");
+    this.out.formatElementIdCommas(this.inv.getCPC(), "cookies-per-sec");
     this.setStoredItems();
 
     this.out.outputClickedCookie('cookie-button','./images/cookie.png', './images/cookie_smaller.png');
@@ -148,14 +144,6 @@ export default class Main {
   }
 
 
-  //duplicate
-  formatWithCommas(value){
-    const numberFormatter = Intl.NumberFormat('en-US');
-    return numberFormatter.format(value);
-  }
-  
-
-   // for a view class
    displayPurchaseTotals(){
     const shopItems = this.inv.getCurrentItemsData();
 

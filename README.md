@@ -47,7 +47,10 @@ Numbers on screen are formatted with commas as thousand separators
 
 Utilised an open source font (Roboto).
 
-Added some subtle letter spacing to improve the design. 
+Added some subtle letter spacing to improve the design.
+
+Instructions included at the bottom of the page.
+
 
 Timers are utilised for:
 
@@ -73,3 +76,10 @@ The following stretch goals were implemented
 - Upgrades: Added an extra item for purchasing, namely a 'Big Factory'
 
 
+### Issues
+
+Time constraints.
+I wanted to add some extra artwork to display images of bonus items. The items were scanned from drawings and cleaned up, but didn't have time to colour them
+and add them.
+
+Scanner died before I could scan the wireframe plan. So had to take a (bad) photo and use that instead.
