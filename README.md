@@ -38,13 +38,11 @@ When an item is purchased, the number of current items of that type is animated 
 
 When an item purchase is unsuccessful, the page responds with a random message to the user to indicate that insufficient cookies are owned to purchase the item. This message is cleared after a short timeframe.
 
-Numbers on screen are formatted with commas as thousand separators.
-
 Uses CSS grid functionality to display the inventory of items and statistics.
 
 Uses classes to abstract away the statistics and operation of the user inventory and purchasing functionality. Also to separate the functionality for updating the DOM. This was done to separate concerns and reduce complexity.
 
-
+Numbers on screen are formatted with commas as thousand separators
 
 Utilised an open source font (Roboto).
 
@@ -73,5 +71,4 @@ The following stretch goals were implemented
 
 - Upgrades: Added an extra item for purchasing, namely a 'Big Factory'
 
-- Upgrades: Added an extra feature so that Grandmas can only use two ovens at a time.
 
