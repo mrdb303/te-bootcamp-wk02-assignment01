@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="./css/stylesheet.css">
+  <script type="module" src="./js/app.js" defer></script>
+  <title>COOKIE CLICKER</title>
+</head>
+<body>
+  <header>
+    <h1>COOKIE CLICKER</h1>
+  </header>
+  <div id="wrapper">
+    
+    <section>
+      <div class="grid-container">
+      
+        <!-- <div class="box center-txt">
+          <p>Time:</p>
+          <div id="stopwatch">0</div>
+        </div> -->
+
+        <div class="box center-txt">
+          <p>Cookies earnt</p>
+          <div id="num-cookies">1</div>
+        </div>
+        
+        <div class="box center-txt">
+          <p>Cookies per click</p>
+          <div id="cookies-per-sec">1</div>
+        </div>
+      </div>
+    </section>
+    
+    <div id="cookie-wrapper">
+      <div id="cookie-box">
+        <input type="image" src="./images/cookie.png" id="cookie-button" />
+      </div>
+    </div>
+
+
+    <div id="error" class="center-txt bolder"><h3></h3>
+      <!-- populated by JS -->
+    </div>
+
+    
+
+    <div id="products">
+
+      <!-- headings -->
+
+      <div class="prod-box center-txt bolder">Total</div>
+      <div class="prod-box center-txt bolder">Resource</div>
+      <div class="prod-box center-txt bolder">Cost</div>
+      <div class="prod-box center-txt bolder">Bonus Value</div>
+      <div class="prod-box center-txt bolder">Purchase</div>
+
+      <!-- row 1 -->
+
+      <!--Using data-varid values to pass data through to the class to buy
+      upgrades -->
+      
+      <div class="prod-box total-val center-txt" data-varid="0">a</div>
+      <div class="prod-box item-desc" data-varid="0"></div>
+      <div class="prod-box price center-txt" data-varid="0">a</div>
+      <div class="prod-box bonus center-txt" data-varid="0">a</div>
+      <div class="prod-box">
+        <button type="button" class="buy" data-varid="0">Employ Grandma</button>
+      </div>
+     
+      <!-- row 2 -->
+      
+      <div class="prod-box total-val center-txt" data-varid="1">a</div>
+      <div class="prod-box item-desc" data-varid="1">a</div>
+      <div class="prod-box price center-txt" data-varid="1">a</div>
+      <div class="prod-box bonus center-txt" data-varid="1">a</div>
+      <div class="prod-box">
+        <button type="button" class="buy" data-varid="1">Buy Oven</button>
+      </div>
+
+      <!-- row 3 -->
+      
+      <div class="prod-box total-val center-txt" data-varid="2">a</div>
+      <div class="prod-box item-desc" data-varid="2">a</div>
+      <div class="prod-box price center-txt" data-varid="2">a</div>
+      <div class="prod-box bonus center-txt" data-varid="2">a</div>
+      <div class="prod-box">
+        <button type="button" class="buy" data-varid="2">Buy Factory</button>
+      </div>
+
+      <!-- row 4 -->
+      
+      <div class="prod-box total-val center-txt" data-varid="3">a</div>
+      <div class="prod-box item-desc" data-varid="3">a</div>
+      <div class="prod-box price center-txt" data-varid="3">a</div>
+      <div class="prod-box bonus center-txt" data-varid="3">a</div>
+      <div class="prod-box">
+        <button type="button" class="buy" data-varid="3">Buy Mine</button>
+      </div>
+
+      <!-- row 5 -->
+      
+      <div class="prod-box total-val center-txt" data-varid="4">a</div>
+      <div class="prod-box item-desc" data-varid="4">a</div>
+      <div class="prod-box price center-txt" data-varid="4">a</div>
+      <div class="prod-box bonus center-txt" data-varid="4">a</div>
+      <div class="prod-box">
+        <button type="button" class="buy" data-varid="4">Buy Bank</button>
+      </div>
+
+      <!-- row 6 -->
+      
+      <div class="prod-box total-val center-txt" data-varid="5">a</div>
+      <div class="prod-box item-desc" data-varid="5">a</div>
+      <div class="prod-box price center-txt" data-varid="5">a</div>
+      <div class="prod-box bonus center-txt" data-varid="5">a</div>
+      <div class="prod-box">
+        <button type="button" class="buy" data-varid="5">Buy Big Factory</button>
+      </div>
+
+
+
+    </div>
+
+    
+
+    
+    
+    
+    <div id="reset-button-wrapper">
+      <button type="button" id="reset" class="bolder reset">Reset</button>
+    </div>
+    
+
+    
+  </div>
+
+  <footer><p>&copy; D Brien 2023</p></footer>
+
+</body>
+</html>
