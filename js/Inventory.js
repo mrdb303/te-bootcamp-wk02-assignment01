@@ -26,7 +26,7 @@ export default class Inventory {
       fileName: "granny.png", total: 0},
       { shopId: 1, item: "Oven", price: 100, bonus: 5, 
       fileName: "oven.png", total: 0},
-      { shopId: 2, item: "Factory", price: 1000, bonus: 50, 
+      { shopId: 2, item: "Factory", price: 1000, bonus: 40, 
       fileName: "factory.png", total: 0},
       { shopId: 3, item: "Mine", price: 10000, bonus: 100, 
       fileName: "mine.png", total: 0},
